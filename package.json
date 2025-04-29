@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build:watch": "tailwindcss -i ./input.css -o ./output.css --minify --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.4",
+    "tailwindcss": "^4.1.4"
+  }
+}
